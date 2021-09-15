@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configJDBC>
+    <url>jdbc:oracle:thin:@//scinfe098.univ-pau.fr:1521/etud.univ-pau.fr</url>
+    <user>msauvageot</user>
+    <password>msauvageot</password>
+</configJDBC>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accueil</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Jeu du Cul de Chouette</h1>
+        
+        <form action="ProfilServlet" method="post" style="width: 50%">
+            <fieldset>
+                <legend style="font-size: 18px">Se connecter</legend>
+                <p>Nom d'utilisateur : <input name="nomUtil" required></p>
+                <p>Mot de passe : <input type="password" name="mdp" required></p>
+                <input type="submit" value="Se connecter">
+            </fieldset>
+        </form>
+        <br>
+        <h2>Vous n'avez pas de compte ? <br /></h2>
+            <form action="CreateAccountServlet" method="get">
+                <input type="submit" value="Créer un compte">
+            </form>
+    </body>
+</html>
